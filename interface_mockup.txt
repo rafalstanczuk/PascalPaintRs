@@ -1,0 +1,60 @@
+PaintRs - Visual Interface Mockup
+==================================
+
+This file represents what the PaintRs interface would look like when running.
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ PaintRs                                                             [640x480] │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│ Programowanie : Rafal Stanczuk                                              │
+│ rafalsrs@wp.pl www.rafalsrs.prv.pl                                         │
+│                                                                             │
+│ ┌─ Obiekty rysunk. ─────────────┐              ┌─ Drawing Area ─────────────┐ │
+│ │ [Linia     ]                  │              │                            │ │
+│ │ [Prostokat ]   Style wype...  │              │     [  DRAWING             │ │
+│ │ [Kolo      ]   Grubosc lini   │              │       CANVAS               │ │
+│ │ [Tekst     ]   Wielkosci ob...│              │                            │ │
+│ │ [Wypelnien.]                  │              │      (Click and drag       │ │
+│ │ [Wyczysc   ]                  │              │       to draw here)        │ │
+│ └───────────────────────────────┘              └────────────────────────────┘ │
+│                                                                             │
+│ ┌─ Kolory: ──────────────────────────────────────────────────────────────────┐ │
+│ │ [Black] [Blue] [Green] [Cyan]     [Red] [Magenta] [Brown] [Light Gray]     │ │
+│ │ [Dark]  [L.Blue] [L.Green] [L.Cy] [L.Red] [L.Mag] [Yellow] [White]        │ │
+│ │  Gray                                                                       │ │
+│ └─────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                             │
+│ Nacisnij [ENTER]...   Current: Linia Tool | White Color | Solid Fill         │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+MOUSE CURSOR: White arrow pointer (→) that moves with mouse movement
+
+BUTTON STATES:
+- Normal: Light gray background with black border
+- Active/Hovered: Dark gray background (pressed effect)
+- Tool buttons: Black text on gray background
+- Color buttons: Filled with actual color, white border when selected
+
+COLOR PALETTE (16 colors):
+Row 1: Black, Blue, Green, Cyan
+Row 2: Red, Magenta, Brown, Light Gray
+Row 3: Dark Gray, Light Blue, Light Green, Light Cyan
+Row 4: Light Red, Light Magenta, Yellow, White
+
+DRAWING OPERATIONS:
+- Line: Click start point → drag to end point → release → line appears
+- Rectangle: Click corner → drag to opposite corner → release → rectangle appears
+- Circle: Click center → drag to set radius → release → circle appears
+- Text: Click position → "Tekst" appears in current color
+- Fill: Click inside area → flood fills with current color and pattern
+
+INTERFACE LAYOUT:
+- Screen Resolution: 640x480 pixels (VGA mode)
+- Tool Buttons: Left side (x=10 to x=90, y=80 to y=260)
+- Color Grid: Right side (x=490 to x=630, y=100 to y=200)
+- Drawing Area: Center/Right (x=200 to x=480, y=60 to y=420)
+- Labels: Polish text throughout interface
+- Mouse Support: Full mouse integration with visual feedback
+
+This represents the complete mouse-driven paint program interface from 2003!

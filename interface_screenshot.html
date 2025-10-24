@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PaintRs - Visual Interface Mockup</title>
+    <style>
+        body {
+            font-family: monospace;
+            background: #000;
+            color: #fff;
+            margin: 20px;
+        }
+        .interface {
+            background: #000;
+            border: 2px solid #fff;
+            padding: 10px;
+            width: 800px;
+            height: 500px;
+            position: relative;
+        }
+        .title {
+            color: #87CEEB;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .author {
+            color: #FFD700;
+            font-size: 12px;
+        }
+        .tool-buttons {
+            position: absolute;
+            left: 10px;
+            top: 80px;
+            width: 90px;
+        }
+        .tool-button {
+            background: #C0C0C0;
+            border: 2px outset #C0C0C0;
+            color: #000;
+            padding: 5px;
+            margin: 2px;
+            width: 80px;
+            text-align: center;
+            font-size: 10px;
+        }
+        .tool-button:hover {
+            background: #808080;
+        }
+        .tool-button.active {
+            background: #404040;
+            border: 2px inset #404040;
+        }
+        .color-grid {
+            position: absolute;
+            right: 10px;
+            top: 100px;
+            width: 120px;
+        }
+        .color-button {
+            width: 20px;
+            height: 20px;
+            margin: 2px;
+            border: 1px solid #fff;
+            display: inline-block;
+        }
+        .color-button.selected {
+            border: 2px solid #FFD700;
+        }
+        .drawing-area {
+            position: absolute;
+            left: 120px;
+            top: 60px;
+            right: 150px;
+            bottom: 20px;
+            background: #000;
+            border: 1px solid #fff;
+        }
+        .label {
+            color: #87CEEB;
+            font-size: 10px;
+            position: absolute;
+            bottom: 5px;
+        }
+        .status {
+            color: #fff;
+            font-size: 10px;
+            position: absolute;
+            bottom: 5px;
+            left: 120px;
+        }
+        /* Color definitions */
+        .color-black { background: #000; }
+        .color-blue { background: #0000FF; }
+        .color-green { background: #00FF00; }
+        .color-cyan { background: #00FFFF; }
+        .color-red { background: #FF0000; }
+        .color-magenta { background: #FF00FF; }
+        .color-brown { background: #A52A2A; }
+        .color-lightgray { background: #D3D3D3; }
+        .color-darkgray { background: #A9A9A9; }
+        .color-lightblue { background: #ADD8E6; }
+        .color-lightgreen { background: #90EE90; }
+        .color-lightcyan { background: #E0FFFF; }
+        .color-lightred { background: #FFB6C1; }
+        .color-lightmagenta { background: #FFB6C1; }
+        .color-yellow { background: #FFFF00; }
+        .color-white { background: #FFFFFF; }
+    </style>
+</head>
+<body>
+    <h1 style="color: #FFD700;">PaintRs - Graphics Painting Program (2003)</h1>
+    <p style="color: #87CEEB;">Visual mockup of the mouse-driven interface</p>
+
+    <div class="interface">
+        <div class="title">PaintRs</div>
+        <div class="author" style="position: absolute; top: 35px; left: 10px;">
+            Programowanie : Rafal Stanczuk<br>
+            rafalsrs@wp.pl www.rafalsrs.prv.pl
+        </div>
+
+        <!-- Tool Buttons (Left Side) -->
+        <div class="tool-buttons">
+            <div class="label" style="position: absolute; top: -15px;">Obiekty rysunk.:</div>
+            <div class="tool-button">Linia</div>
+            <div class="tool-button">Prostokat</div>
+            <div class="tool-button active">Kolo</div>
+            <div class="tool-button">Tekst</div>
+            <div class="tool-button">Wypelnienie</div>
+            <div class="tool-button">Wyczysc</div>
+        </div>
+
+        <!-- Color Selection Grid (Right Side) -->
+        <div class="color-grid">
+            <div class="label" style="position: absolute; top: -15px;">Kolory:</div>
+            <div class="color-button color-black"></div>
+            <div class="color-button color-blue"></div>
+            <div class="color-button color-green"></div>
+            <div class="color-button color-cyan"></div>
+            <div class="color-button color-red"></div>
+            <div class="color-button color-magenta"></div>
+            <div class="color-button color-brown"></div>
+            <div class="color-button color-lightgray"></div>
+            <div class="color-button color-darkgray"></div>
+            <div class="color-button color-lightblue"></div>
+            <div class="color-button color-lightgreen"></div>
+            <div class="color-button color-lightcyan"></div>
+            <div class="color-button color-lightred"></div>
+            <div class="color-button color-lightmagenta"></div>
+            <div class="color-button color-yellow"></div>
+            <div class="color-button color-white selected"></div>
+        </div>
+
+        <!-- Drawing Area (Center) -->
+        <div class="drawing-area">
+            <div style="padding: 10px; color: #666;">
+                [640x480 Drawing Canvas]<br><br>
+                Click and drag here to draw<br>
+                with the selected tool and color<br><br>
+                Current Tool: Kolo (Circle)<br>
+                Current Color: White<br>
+                Fill Style: Solid
+            </div>
+        </div>
+
+        <!-- Bottom Labels -->
+        <div class="label" style="left: 10px;">Style wypelnienia   Grubosc lini   Wielkosci obiektow:</div>
+        <div class="status">Nacisnij [ENTER]...   Current: Kolo Tool | White Color | Solid Fill</div>
+    </div>
+
+    <h2 style="color: #FFD700; margin-top: 30px;">How to Use:</h2>
+    <ul style="color: #87CEEB;">
+        <li><strong>Tool Selection:</strong> Click on rectangular buttons on the left side</li>
+        <li><strong>Color Selection:</strong> Click on color rectangles in the 4x4 grid on the right</li>
+        <li><strong>Drawing:</strong> Click and drag in the large drawing area in the center</li>
+        <li><strong>Visual Feedback:</strong> Active tools are highlighted, current color has white border</li>
+    </ul>
+
+    <h2 style="color: #FFD700;">To See the Real Program:</h2>
+    <pre style="background: #111; padding: 10px; border: 1px solid #333;">
+# Install DOSBox for authentic experience
+sudo apt install dosbox
+
+# Run PaintRs in DOSBox
+cd /home/stan/Rafal/Projects/stareprogikiRS_Pascal/paint_rs/paint_rs
+./run_in_dosbox.sh</pre>
+
+    <p style="color: #FFD700; margin-top: 20px;">
+        <strong>This is a historical DOS program from 2003.</strong><br>
+        DOSBox provides the most authentic experience with proper BGI graphics support.
+    </p>
+</body>
+</html>

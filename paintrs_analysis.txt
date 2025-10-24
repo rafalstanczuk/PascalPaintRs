@@ -1,0 +1,120 @@
+PaintRs.exe - Analysis and Reconstruction
+==========================================
+
+File Information:
+- File: PaintRs.exe
+- Size: 31,088 bytes (30KB)
+- Type: MS-DOS Executable (MZ format)
+- Compiler: Borland Pascal (1983-1992)
+- Date: June 3, 2003, 22:59:42
+- Author: Rafał Stańczuk (rafalsrs@wp.pl)
+
+Program Analysis from String Extraction:
+=======================================
+
+Program Purpose:
+- Graphics painting/drawing application
+- Uses Borland Graphics Interface (BGI)
+- Text-based graphics program with drawing capabilities
+- Created by: Rafał Stańczuk (rafalsrs@wp.pl)
+
+User Interface Messages (Polish):
+1. "Programowanie : Rafal Stanczuk rafalsrs@wp.pl www.rafalsrs.prv.pl"
+   (Programming: Rafal Stanczuk rafalsrs@wp.pl www.rafalsrs.prv.pl)
+
+2. "Nacisnij [ENTER]..."
+   (Press [ENTER]...)
+
+3. "Style wypelnienia"
+   (Fill styles)
+
+4. "Grubosc lini"
+   (Line thickness)
+
+5. "Rodzaj"
+   (Type/Kind)
+
+6. "Lini"
+   (Line)
+
+7. "Obiekty rysunk.:"
+   (Drawing objects:)
+
+8. "Wielkosci obiektow:"
+   (Object sizes:)
+
+Graphics System:
+- Uses Borland Graphics Interface (BGI)
+- Graphics driver: EGAVGA.BGI (EGA/VGA support)
+- Font: LITT.CHR (Little font)
+- Error handling for graphics initialization
+
+BGI Error Messages:
+- "BGI Error: Graphics not initialized (use InitGraph)"
+- "BGI Error: Not in graphics mode"
+
+Graphics Drivers Supported:
+- EGAVGA (EGA/VGA)
+- IBM8514
+- HERC (Hercules)
+- PC3270
+- TRIP
+
+Fonts Available:
+- LITT (Little)
+- SANS
+- GOTH
+- SCRI
+- SIMP
+- TSCR
+- LCOM
+- EURO
+- BOLD
+
+Technical Details:
+==================
+- Runtime: Borland Pascal Runtime
+- Error handling: "Runtime error at [address]"
+- Copyright: "Portions Copyright (c) 1983,92 Borland"
+- Graphics: BGI-based drawing system
+- File size: 31,088 bytes (larger than encoding utilities)
+
+Program Features (Inferred):
+============================
+1. Graphics initialization and mode setting
+2. Drawing objects (lines, shapes, etc.)
+3. Fill style selection
+4. Line thickness control
+5. Object size manipulation
+6. Text rendering with different fonts
+7. Menu-driven interface
+8. Graphics error handling
+
+Expected Functionality:
+=======================
+- Basic drawing tools (lines, shapes, text)
+- Fill pattern selection
+- Line width adjustment
+- Object manipulation
+- Graphics mode management
+- Font selection and text rendering
+- Menu-based user interface
+
+Reconstruction Strategy:
+========================
+Since this is a graphics painting program:
+1. Graphics initialization functions
+2. Drawing primitive functions (lines, circles, rectangles)
+3. Fill pattern and line style functions
+4. Text rendering functions
+5. Menu system for tool selection
+6. Graphics mode management
+7. Error handling for graphics operations
+
+The reconstruction will implement:
+- BGI graphics initialization
+- Basic drawing primitives
+- Fill and line style controls
+- Text rendering capabilities
+- Menu-driven interface
+- Graphics error handling
