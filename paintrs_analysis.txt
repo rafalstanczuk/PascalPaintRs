@@ -7,7 +7,7 @@ File Information:
 - Type: MS-DOS Executable (MZ format)
 - Compiler: Borland Pascal (1983-1992)
 - Date: June 3, 2003, 22:59:42
-- Author: Rafał Stańczuk (rafalsrs@wp.pl)
+- Author: Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
 
 Program Analysis from String Extraction:
 =======================================
@@ -16,11 +16,11 @@ Program Purpose:
 - Graphics painting/drawing application
 - Uses Borland Graphics Interface (BGI)
 - Text-based graphics program with drawing capabilities
-- Created by: Rafał Stańczuk (rafalsrs@wp.pl)
+- Created by: Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
 
 User Interface Messages (Polish):
-1. "Programowanie : Rafal Stanczuk rafalsrs@wp.pl www.rafalsrs.prv.pl"
-   (Programming: Rafal Stanczuk rafalsrs@wp.pl www.rafalsrs.prv.pl)
+1. "Programowanie : Rafal Stanczuk stanczuk.rafal@gmail.com https://github.com/rafalstanczuk"
+   (Programming: Rafal Stanczuk stanczuk.rafal@gmail.com https://github.com/rafalstanczuk)
 
 2. "Nacisnij [ENTER]..."
    (Press [ENTER]...)

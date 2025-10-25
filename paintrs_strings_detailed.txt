@@ -5,7 +5,7 @@
 =$tH&
 0<:r
 3BGI Error: Graphics not initialized (use InitGraph) BGI Error:  Not in graphics modeU
-AProgramowanie : Rafal Stanczuk rafalsrs@wp.pl www.rafalsrs.prv.pl
+AProgramowanie : Rafal Stanczuk stanczuk.rafal@gmail.com https://github.com/rafalstanczuk
 .BGIU
 BOLD
 .CHRU

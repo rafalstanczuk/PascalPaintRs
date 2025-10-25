@@ -46,7 +46,7 @@ PaintRs is a **2D graphics painting application** originally written in Borland 
 
 ## Original Program Information
 
-- **Original Author:** Rafał Stańczuk (rafalsrs@wp.pl)
+- **Original Author:** Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
 - **Original Date:** June 3, 2003, 22:59:42
 - **Original Compiler:** Borland Pascal 7.0
 - **Original Size:** 31,088 bytes (30KB)
@@ -602,7 +602,7 @@ These screenshots represent authentic moments of 2003 DOS graphics programming, 
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
 │ Programowanie : Rafal Stanczuk                    ┌─ Drawing Area ─┐    │
-│ rafalsrs@wp.pl www.rafalsrs.prv.pl               │  (x > 200)     │    │
+│ stanczuk.rafal@gmail.com https://github.com/rafalstanczuk │  (x > 200)     │    │
 │                                                   │                │    │
 │ ┌─ Obiekty rysunk. ─┐   Style wypelnienia       │   [Drawing     │    │
 │ │ [Linia     ]       │   Grubosc lini           │    Canvas      │    │
@@ -638,7 +638,7 @@ These screenshots represent authentic moments of 2003 DOS graphics programming, 
 │ PaintRs                                                             [X] │
 ├─────────────────────────────────────────────────────────────────────────┤
 │ Programowanie : Rafal Stanczuk                                          │
-│ rafalsrs@wp.pl www.rafalsrs.prv.pl                                     │
+│ stanczuk.rafal@gmail.com https://github.com/rafalstanczuk              │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -798,8 +798,8 @@ This program represents a significant step in my programming journey:
 ## Author Information
 
 **Original Author:** Rafał Stańczuk
-- Email: rafalsrs@wp.pl
-- Website: www.rafalsrs.prv.pl
+- Email: stanczuk.rafal@gmail.com (old contact rafalsrs@wp.pl)
+- Website: https://github.com/rafalstanczuk
 - Date: June 3, 2003, 22:59:42
 
 **Reconstruction:** Based on disassembly analysis of the original executable, preserving the original graphics functionality while adapting for modern Pascal compilers.

@@ -8,7 +8,7 @@ This file represents what the PaintRs interface would look like when running.
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │ Programowanie : Rafal Stanczuk                                              │
-│ rafalsrs@wp.pl www.rafalsrs.prv.pl                                         │
+│ stanczuk.rafal@gmail.com https://github.com/rafalstanczuk                  │
 │                                                                             │
 │ ┌─ Obiekty rysunk. ─────────────┐              ┌─ Drawing Area ─────────────┐ │
 │ │ [Linia     ]                  │              │                            │ │

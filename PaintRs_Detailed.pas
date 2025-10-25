@@ -3,7 +3,7 @@ program PaintRs_Detailed;
 {*
  * PaintRs - Graphics Painting Program (Detailed Reconstruction)
  * Assembly-accurate reconstruction with mouse and button interface
- * Original: Rafał Stańczuk (rafalsrs@wp.pl)
+ * Original: Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
  * Date: June 3, 2003, 22:59:42
  *
  * Accurate reconstruction with mouse-driven interface:
@@ -324,7 +324,7 @@ begin
     SetColor(Yellow);
     SetTextStyle(DefaultFont, HorizDir, 1);
     OutTextXY(MENU_X, 35, 'Programowanie : Rafal Stanczuk');
-    OutTextXY(MENU_X, 50, 'rafalsrs@wp.pl www.rafalsrs.prv.pl');
+    OutTextXY(MENU_X, 50, 'stanczuk.rafal@gmail.com https://github.com/rafalstanczuk');
 
     { Draw menu section label - "Obiekty rysunk.:" }
     SetColor(LightGreen);

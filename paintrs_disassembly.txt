@@ -21,7 +21,7 @@ String Analysis and UI Elements:
 
 ✅ CORRECTED: Main Program Strings (Polish):
 ---------------------------------------------
-1. "Programowanie : Rafal Stanczuk rafalsrs@wp.pl www.rafalsrs.prv.pl"
+1. "Programowanie : Rafal Stanczuk stanczuk.rafal@gmail.com https://github.com/rafalstanczuk"
    - Author information displayed on startup/main screen
 
 2. "Nacisnij [ENTER]..."
